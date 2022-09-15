@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class Chrome implements DriverStrategy {
 
-    @Override
     public WebDriver setStrategy() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
